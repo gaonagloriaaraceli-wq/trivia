@@ -23,6 +23,14 @@ if pregunta3==4:
 else: 
     print("La respuesta no es correcta")
 
+print(puntos)
+
+if puntos==4:
+    print("Excelente")
+elif puntos >= 2:
+    print(Muy bien)
+else: print("Puedes mejorar")
+
 
 
     
