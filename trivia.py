@@ -28,7 +28,7 @@ print(puntos)
 if puntos==4:
     print("Excelente")
 elif puntos >= 2:
-    print(Muy bien)
+    print("Muy bien")
 else: print("Puedes mejorar")
 
 
