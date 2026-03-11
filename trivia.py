@@ -1,7 +1,29 @@
 nombre_usuario=input("Ingrese su nombre")
 print(f"Bienvenid@ {nombre_usuario} a esta trivia ")
+puntos=0
 
 pregunta1=input("Cuánto es 2+2?")
+if pregunta1==4:
+    puntos=puntos+1
+else: 
+    print("La respuesta no es correcta")
 pregunta2=input("Cuánto es 6-2?")
-pregunta3=input("Cuanto es 2 x 3?")
-pregunta4=input("Cuánto es 4/2?")
+if pregunta2==4:
+    puntos=puntos+1
+else: 
+    print("La respuesta no es correcta")
+pregunta3=input("Cuanto es 2 x 2?")
+if pregunta3==4:
+    puntos=puntos+1
+else: 
+    print("La respuesta no es correcta")
+pregunta4=input("Cuánto es 8/2?")
+if pregunta3==4:
+    puntos=puntos+1
+else: 
+    print("La respuesta no es correcta")
+
+
+
+    
+
